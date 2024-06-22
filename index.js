@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Listening to EPIMAX: http://localhost:${port}`);
+  console.log(`🔗 Powered By EPIMAX`);
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["YOUTUBE","SPOTIFY","INSTAGRAM","TWITCH"];
 
 
 let currentIndex = 0;
